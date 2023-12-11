@@ -41,6 +41,7 @@ I picked the first one, Mainly because, I did not have experience with babylonjs
         2. To Draw outline initially I tried scalling the cloned mesh but on curves it was uneven, 
             so I wrote a shader where I was scalling vertices with reference to their normal
             this gave me a consistent outline.
+            (**The only drawback here is outlining low-poly models)
 
 
 Note: I previously have implemented God Rays Effects using only WebGL, The process of generating passes is similar to the outline the only difference is we need to compute the outline using depth texture. Here is the link to god rays using post-processing
