@@ -19,9 +19,8 @@ npm run build
     [screenshot](./static/ss1.png)
 
 2. The main challenge of this Assignment was drawing an outline, As there are multiple ways to implement it, I know two of them
-    a. Drawing an Object twice, such that culling its backfaces makes the outline
-
-    b. Post-processing using Depth buffer
+   a. Drawing an Object twice, such that culling its backfaces makes the outline
+   b. Post-processing using Depth buffer
 
 I picked the first one, Mainly because, I did not have experience with babylonjs and its structure of maintaining buffers, Also I went through multiple articles where drawing another object with only its backfaces is not that expensive compared to post-processing on every frame
 
