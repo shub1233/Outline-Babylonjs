@@ -48,6 +48,8 @@ Note: I previously have implemented God Rays Effects using only WebGL, The proce
     [GitHub](https://github.com/shub1233/God-Rays)
     [Live](https://shub1233.github.io/God-Rays/)
 
+Here is the link where I've used outline pass to show selection in my [chair configurator](https://showcase-wine.vercel.app/src/threejs/inspired/lounge-chair-configurator/lounge-chair-configurator.html)
+
 
 
 
