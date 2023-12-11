@@ -44,9 +44,9 @@ I picked the first one, Mainly because, I did not have experience with babylonjs
 
 
 Note: I previously have implemented God Rays Effects using only WebGL, The process of generating passes is similar to the outline the only difference is we need to compute the outline using depth texture. Here is the link to god rays using post-processing
-
-    GitHub: [https://github.com/shub1233/God-Rays](https://github.com/shub1233/God-Rays)
-    Live: [https://shub1233.github.io/God-Rays/](https://shub1233.github.io/God-Rays/)
+    Links
+    [GitHub](https://github.com/shub1233/God-Rays)
+    [Live](https://shub1233.github.io/God-Rays/)
 
 
 
