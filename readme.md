@@ -19,6 +19,7 @@ npm run build
     [screenshot](./static/ss1.png)
 
 2. The main challenge of this Assignment was drawing an outline, As there are multiple ways to implement it, I know two of them
+   
    a. Drawing an Object twice, such that culling its backfaces makes the outline
    b. Post-processing using Depth buffer
 
