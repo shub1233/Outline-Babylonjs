@@ -26,7 +26,24 @@ npm run build
 
 I picked the first one, Mainly because, I did not have experience with babylonjs and its structure of maintaining buffers, Also I went through multiple articles where drawing another object with only its backfaces is not that expensive compared to post-processing on every frame
 
-3. I previously have implemented God Rays Effects using only WebGL, The process of generating passes is similar to the outline the only difference is we need to compute the outline using depth texture. Here is the link to god rays using post-processing
+    Task1:
+
+        1. Created scene with a cube, and then tried to load multiple geometries
+        
+        2. Using SceneLoader imported a .obj file
+        
+        3. Positioned the geometries in random arrangement (Took reference from three.js examples)
+
+    Task2: 
+
+        1. Used Raypicking to understand which object user currently hovering on
+        
+        2. To Draw outline initially I tried scalling the cloned mesh but on curves it was uneven, 
+            so I wrote a shader where I was scalling vertices with reference to their normal
+            this gave me a consistent outline.
+
+
+Note: I previously have implemented God Rays Effects using only WebGL, The process of generating passes is similar to the outline the only difference is we need to compute the outline using depth texture. Here is the link to god rays using post-processing
 
     GitHub: https://github.com/shub1233/God-Rays
     Live: https://shub1233.github.io/God-Rays/
